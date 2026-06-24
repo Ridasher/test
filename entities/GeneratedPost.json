@@ -1,0 +1,29 @@
+{
+  "name": "GeneratedPost",
+  "type": "object",
+  "properties": {
+    "subject": {
+      "type": "string",
+      "description": "Le sujet ou brouillon d'origine"
+    },
+    "variant_1": {
+      "type": "string",
+      "description": "Premi\u00e8re variante de post"
+    },
+    "variant_2": {
+      "type": "string",
+      "description": "Deuxi\u00e8me variante de post"
+    },
+    "variant_3": {
+      "type": "string",
+      "description": "Troisi\u00e8me variante de post"
+    },
+    "tone": {
+      "type": "string",
+      "description": "Ton choisi pour la g\u00e9n\u00e9ration"
+    }
+  },
+  "required": [
+    "subject"
+  ]
+}

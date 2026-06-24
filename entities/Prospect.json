@@ -1,0 +1,43 @@
+{
+  "name": "Prospect",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nom du prospect"
+    },
+    "linkedin_url": {
+      "type": "string",
+      "description": "URL du profil LinkedIn"
+    },
+    "position": {
+      "type": "string",
+      "description": "Poste occup\u00e9"
+    },
+    "company": {
+      "type": "string",
+      "description": "Entreprise"
+    },
+    "sector": {
+      "type": "string",
+      "description": "Secteur d'activit\u00e9"
+    },
+    "city": {
+      "type": "string",
+      "description": "Ville"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Notes personnelles"
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Note d'int\u00e9r\u00eat (1-5)"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
